@@ -1,0 +1,129 @@
+<!-- 
+SOLUTION FILE
+This file contains the corrected version of the debugging exercise with explanations for each fix.
+Compare your solutions with this file to understand what needed to be fixed.
+-->
+
+<!DOCTYPE html>  <!-- Fix 1: Corrected spelling of 'html' in DOCTYPE declaration -->
+
+<html>
+<head>  <!-- Fix 2: Changed 'header' to 'head' - this is the correct tag for the document head section -->
+    <title>My First Website - Debug Practice</title>
+    <meta charset="UTF-8" />  <!-- Fix 3: Added closing angle bracket (self-closing tag) -->
+    
+    <!-- Fix 4: Added opening style tag -->
+    <style>
+        body {
+            background-color: lightblue;
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>  <!-- Fix 5: Changed closing tag to match the head tag -->
+
+<body>
+    <h1>Welcome to My Website!</h1>
+    <!-- Fix 6: Added closing paragraph tag -->
+    <p>This is a practice website for learning HTML debugging.</p>
+    
+    <h2>About Me</h2>
+    <!-- Fix 7: Fixed nesting of strong and text -->
+    <p><strong>I love coding and learning HTML!</strong></p>
+    
+    <!-- Fix 8: Corrected heading tag closure -->
+    <h3>My Favorite Foods:</h3>
+    <ul>
+        <li>Pizza</li>  <!-- Fix 9: Added closing li tag -->
+        <li>Sushi</li>  <!-- Fix 10: Corrected closing tag from l1 to li -->
+        <li>Ice Cream</li>  <!-- Fix 11: Corrected duplicate li closing tag -->
+    </ul>
+    
+    <!-- Fix 12: Added alt attribute for accessibility -->
+    <img src="profile-pic.jpg" alt="Profile picture">
+    
+    <!-- Fix 13: Added equals sign for href attribute -->
+    <a href="https://www.example.com" target="_blank">Visit my favorite website!</a>
+    
+    <div class="contact-form">  <!-- Fix 14: Added closing angle bracket -->
+        <h2>Contact Me!</h2>
+        <form action="/submit" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">  <!-- Fix 15: Added name attribute -->
+            
+            <br><br>
+            
+            <!-- Fix 16: Closed label tag properly -->
+            <label for="topic">Choose a topic:</label>
+            <select id="topic" name="topic">
+                <option value="general">General Question</option>
+                <option value="feedback">Feedback</option>
+                <option value="other">Other</option>  <!-- Fix 17: Corrected closing tag -->
+            </select>
+            
+            <!-- Fix 18: Added required attributes for textarea -->
+            <textarea name="message" id="message" rows="4" cols="50">Your message here...</textarea>
+            
+            <!-- Fix 19: Moved button inside the form -->
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+    
+    <!-- Fix 20: Corrected heading tags to match -->
+    <h3>My Schedule</h3>  <!-- Fix 21: Changed closing h2 to h3 -->
+    <table border="1">
+        <tr>
+            <th>Day</th>  <!-- Fix 22: Changed td to th -->
+            <th>Activity</th>
+        </tr>  <!-- Fix 23: Added proper row closing -->
+        <tr>
+            <td>Monday</td>
+            <td>Coding Practice</td>
+        </tr>
+        <tr>
+            <td>Tuesday</td>  <!-- Fix 24: Added closing td tag -->
+            <td>HTML Study</td>
+        </tr>
+    </table>
+    
+    <!-- Fix 25: Corrected footer paragraph structure -->
+    <footer>
+        <p>Copyright 2024</p>
+        <p>Email: contact@example.com</p>
+    </footer>
+
+</body>
+</html>  <!-- Fix 26: Added closing html tag -->
+
+<!-- 
+Summary of Fixes:
+1. DOCTYPE spelling
+2. Changed header to head tag
+3. Added closing bracket to meta tag
+4. Added opening style tag
+5. Changed closing header to head
+6. Added closing p tag
+7. Fixed strong tag nesting
+8. Fixed h3 closing tag
+9-11. Fixed list item tags
+12. Added alt attribute to img
+13. Fixed href syntax
+14. Added div closing bracket
+15. Added name attribute to input
+16. Fixed label tag closure
+17. Fixed option closing tag
+18. Added textarea attributes
+19. Moved button inside form
+20-21. Fixed heading tag match
+22. Changed td to th
+23. Added missing tr close
+24. Added missing td close
+25. Fixed footer p tags
+26. Added html closing tag
+
+Remember:
+- Always match opening and closing tags
+- Use proper HTML semantic elements
+- Include required attributes
+- Maintain consistent indentation
+- Close all tags properly
+- Keep proper nesting order
+-->
